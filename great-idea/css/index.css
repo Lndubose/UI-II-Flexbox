@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 html, body {
 	height: 90%;
 	font-family: 'Titillium Web', sans-serif;
-	width: 90%;
+	width: 880px;
 	margin: auto;
 	font-weight: 500;
 }
@@ -103,17 +103,17 @@ header {
   z-index: 5;
 	border-radius: 5px;
 	padding: 32px 0;
-	width: 81%;
+	width: 880px;
   height: 75px;
   background-color: dodgerblue;
 }
 
 nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
+	padding-left: 13px;
 	width: 70%;
-	padding: 15px 0;
 }
 
 .logo {
@@ -135,10 +135,10 @@ nav {
 }
 
 nav a {
-	padding: 7px 59px 15px 13px;
 	color: black;
-  text-decoration: none;
-  font-weight: bold;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 17px 0;
 }
 
 nav a:hover {
@@ -170,7 +170,7 @@ nav a:active {
 	justify-content: space-evenly;
 	align-items: center;
 	padding: 60px 0;
-	margin-top: 34px;
+	margin-top: 42px;
 }
 
 .innovation h1 {
@@ -235,6 +235,7 @@ nav a:active {
 
 .product {
 	padding: 0 10px;
+	margin: 0 5px;
 }
 
 /* Footer */
@@ -262,7 +263,7 @@ nav a:active {
 
 /* service */
 .serv {
-	margin-top: 83px;
+	margin-top: 75px;
 	padding-bottom: 40px; 
 }
 
@@ -283,7 +284,7 @@ nav a:active {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 40px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 .pin {
